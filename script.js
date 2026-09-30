@@ -87,7 +87,7 @@ function M_saad() {
         if (isCnicMissing) {
             missingFields.push("CNIC Number should be (13 digits)");
         }
-m
+
         // Jo-jo cheezein rehti hain, unhi ke naam ka alert ban jayega
         alert("Please enter your: " + missingFields.join(", ") + "!");
         return;
